@@ -1,8 +1,14 @@
+import Avatar from "./avatar"
+import Minibio from "./minibio"
+import Nome from "./nome"
+
 export default function Profile() {
   return (
-    <img
-      src="https://i.imgur.com/MK3eW3Am.jpg"
-      alt="Katherine Johnson"
-    />
+    <div> 
+    <Avatar />
+    <Nome nome="Beatriz Farias Silva"/>
+    <Minibio />
+    </div>
+
   )
 }
