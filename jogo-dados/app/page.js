@@ -1,7 +1,9 @@
-import Dado from "@/components/Dado";
+import JogoDados from "@/components/JogoDados";
 
 export default function App() {
   return (
-    <Dado valor={3}/> 
+    <div>
+      <JogoDados />
+    </div>
   );
 }
