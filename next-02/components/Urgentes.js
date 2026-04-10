@@ -1,3 +1,4 @@
+'use client'
 export default function Tarefas(){
     const [tarefas, setTarefas]=useState([]);
     async function handleCarregarTarefas() {
